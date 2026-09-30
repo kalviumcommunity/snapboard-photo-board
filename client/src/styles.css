@@ -1,0 +1,24 @@
+/* Given. You may tweak, but styling is not graded. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, Segoe UI, Roboto, sans-serif; color: #1a1a2e; background: #f5f6fa; }
+.nav { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1.25rem; background: #1a1a2e; color: #fff; }
+.brand { color: #fff; text-decoration: none; font-weight: 700; font-size: 1.1rem; }
+.nav-right { display: flex; align-items: center; gap: 0.75rem; }
+.nav a { color: #cdd0ff; text-decoration: none; }
+.who { display: inline-flex; align-items: center; gap: 0.4rem; }
+.badge { background: #6c5ce7; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
+button { background: #6c5ce7; color: #fff; border: 0; padding: 0.55rem 1rem; border-radius: 8px; cursor: pointer; font-size: 0.9rem; }
+button:disabled { opacity: 0.6; cursor: default; }
+.main { max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+.card { background: #fff; border-radius: 14px; padding: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+.card h2 { margin-top: 0; }
+form { display: flex; flex-direction: column; gap: 0.9rem; }
+label { display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.85rem; font-weight: 600; }
+input { padding: 0.55rem 0.7rem; border: 1px solid #d5d7e3; border-radius: 8px; font-size: 0.95rem; }
+.hint { color: #6b7280; font-size: 0.8rem; }
+.error { color: #d63031; font-size: 0.85rem; margin: 0; }
+.dropzone { border: 2px dashed #b3b6cc; border-radius: 12px; padding: 2rem; text-align: center; color: #6b7280; cursor: pointer; transition: 0.15s; }
+.dropzone.drag { border-color: #6c5ce7; background: #f0efff; color: #4b3fce; }
+.progress { height: 10px; background: #e6e8f5; border-radius: 6px; overflow: hidden; margin-top: 1rem; }
+.progress > div { height: 100%; background: #6c5ce7; width: 0; transition: width 0.15s; }
+.preview { margin-top: 1rem; max-width: 100%; border-radius: 10px; }

@@ -3,16 +3,18 @@
 A tiny photo-board app. The **API server is already built** (`server/`, do not
 edit). Your job is to finish **four things in the React client** (`client/src`).
 
-## What you edit (client/src)
+## The only four files you edit (all under `client/src/`)
 
-| File | Task |
-|------|------|
-| `auth/AuthContext.jsx` | **Task 1** — login + logout, token **in memory** |
-| `api/axios.js` | **Task 2** — request interceptor attaches `Bearer` token |
-| `components/ProtectedRoute.jsx` | **Task 3** — redirect to `/login` if not logged in |
-| `components/UploadPage.jsx` | **Task 4** — drag-drop + validation + progress bar |
+| # | File to edit | What to build |
+|---|------|------|
+| **Task 1** | `client/src/auth/AuthContext.jsx` | `login` + `logout`, keep the token **in memory** |
+| **Task 2** | `client/src/api/axios.js` | request interceptor that attaches the `Bearer` token |
+| **Task 3** | `client/src/components/ProtectedRoute.jsx` | redirect to `/login` when logged out |
+| **Task 4** | `client/src/components/UploadPage.jsx` | drag-drop + validation + upload progress bar |
 
-Everything else is given. Each TODO has step-by-step hints in the comments.
+Do **not** touch anything else — not the `server/` folder, not the other client
+files. Each of the four files has a `// TODO` with step-by-step hints. Search the
+project for `TODO` to jump to your work.
 
 ## Run it (two terminals)
 
@@ -43,8 +45,5 @@ Open http://localhost:5173. Log in with **ada@demo.com / password** (admin) or
 
 ## Submit
 
-Fill in your name + roll number below, then ZIP the whole project **without any
-`node_modules`** and upload it. Also paste what you verified into `RESULT.txt`.
-
-- **Name:**
-- **Roll number:**
+ZIP the whole project **without any `node_modules`** (delete
+`client/node_modules` and `server/node_modules` first) and upload the ZIP.
